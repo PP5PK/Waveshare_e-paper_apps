@@ -66,7 +66,7 @@ sudo python3 station_monitor.py --once     # single refresh and exit
 
 ### 📡 XLX Reflector Dashboard — `e-paper_monitor.py`
 
-A live dashboard for [xlxd](https://github.com/LX3JL/xlxd) D-Star/YSF/DMR reflectors. Parses the xlxd log file in real time and displays last heard stations and connected clients.
+A live dashboard for [xlxd](https://github.com/PP5PK/XLX_Installer) D-Star/YSF/DMR reflectors. Parses the xlxd log file in real time and displays last heard stations and connected clients.
 
 **Display layout:**
 ```
