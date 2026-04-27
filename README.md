@@ -66,7 +66,7 @@ sudo python3 station_monitor.py --once     # single refresh and exit
 
 ### 📡 XLX Reflector Dashboard — `e-paper_monitor.py`
 
-A live dashboard for [xlxd](https://github.com/PP5PK/XLX_Installer) D-Star/YSF/DMR reflectors. Parses the xlxd log file in real time and displays last heard stations and connected clients.
+A live dashboard for [XLX](https://github.com/PP5PK/XLX_Installer) D-Star/YSF/DMR reflectors. Parses the xlxd log file in real time and displays last heard stations and connected clients.
 
 **Display layout:**
 ```
@@ -115,7 +115,7 @@ sudo python3 e-paper_monitor.py --once     # single refresh and exit
 
 ```bash
 git clone https://github.com/pp5kx/Waveshare_e-paper_apps.git /usr/local/bin/Waveshare_e-paper_apps
-cd /usr/local/bin/epaper-apps
+cd /usr/local/bin/Waveshare_e-paper_apps
 ```
 
 ### 2. Install the WaveShare driver library
@@ -140,13 +140,15 @@ sudo raspi-config
 
 ### 5. Run as a systemd service
 
-Copy the desired service file and enable it:
+Copy the desired service file, edit and enable it:
 
 ```bash
 sudo cp e-paper_monitor.service /etc/systemd/system/
+
+# Edit the service file so that the application name matches the target application as needed.
+sudo nano e-paper_monitor.service
 sudo systemctl daemon-reload
-sudo systemctl enable e-paper_monitor.service
-sudo systemctl start e-paper_monitor.service
+sudo systemctl enable --now e-paper_monitor.service
 
 # Follow the logs
 sudo journalctl -u e-paper_monitor -f
