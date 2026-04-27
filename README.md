@@ -173,8 +173,8 @@ E-paper displays can develop permanent ghosting if the same image is shown for e
 
 ```
 epaper-apps/
-├── station_monitor.py        # System monitor (clock + hardware metrics)
-├── e-paper_monitor.py        # XLX reflector dashboard
+├── e-paper_monitor.py        # System monitor (clock + hardware metrics)
+├── XLX_Dashboard.py          # XLX reflector dashboard
 ├── e-paper_monitor.service   # systemd service file
 ├── waveshare_epd/            # WaveShare driver library (copied from official repo)
 │   ├── epd2in13_V4.py
