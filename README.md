@@ -6,7 +6,7 @@ A growing collection of Python applications for the **WaveShare 2.13" E-Paper HA
 
 ---
 
-## Hardware - [2.13inch E-Paper HAT+](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT+)
+## Hardware - [2.13inch E-Paper HAT](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT) & [HAT+](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT+)
 
 | Item | Details |
 |---|---|
