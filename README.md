@@ -29,20 +29,8 @@ A growing collection of Python applications for the **WaveShare 2.13" E-Paper HA
 A real-time system dashboard showing clock, date, and live hardware metrics.
 
 **Display layout:**
-```
-┌──────────────────────────────────────────┐
-│ RasPi0W-105                                      Sat, 26 Apr 2026    │
-├──────────────────────────────────────────┤
-│                                                                      │
-│                             22:14:37                                 │
-│                                                                      │
-├───────────────────┬──────────────────────┤
-│ CPU [████████░░░░░] 72% │     Temp 54°C                       │
-│ RAM [██████░░░░░░░░] 45% │     Disk 23%                        │
-├───────────────────┴──────────────────────┤
-│ 192.168.1.105                                                PP5KX   │
-└──────────────────────────────────────────┘
-```
+
+![Monitor](https://cloud.dvbr.net/images/e-paper_monitor.jpg)
 
 **Features:**
 - Clock with seconds, updated every 1 s via partial refresh
@@ -205,3 +193,6 @@ MIT License — feel free to use, modify and share.
 ---
 
 *73 de PP5KX*
+
+![73](https://cloud.dvbr.net/images/e-paper_static.jpg)
+
